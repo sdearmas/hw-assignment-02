@@ -13,13 +13,13 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 400vw;
+  width: 700vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
 .vh-center {
   margin: auto auto;
-  width: 80%;
+  width: 60%;
 }
 
 .outer-wrapper {
@@ -39,17 +39,28 @@ body {
 }
 
 .one {
-  background: #efdefe;
+  background: #262626;
 }
 .two {
-  background: #a3f3d3;
+  background: #262626;
 }
 .three {
-  background: #0bbaa0;
+  background: #262626;
 }
 .four {
-  background: #00dfdf;
+  background: #262626;
+}
+.five {
+  background: #262626;
+}
+.six {
+  background: #262626;
+}
+.seven {
+  background: #262626;
 }
 .center {
-  text-align: center;
+  text-align: left;
+  color: white;
+  font-size: 2rem;
 }
