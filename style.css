@@ -1,8 +1,12 @@
 @font-face {
-  font-family: "Agrandir-Heavy";
-  src: url("fonts/Agrandir-GrandHeavy.otf") format("otf");
+  font-family: 'founders-regular';
+  src: url('fonts/FoundersGrotesk-Regular.otf') format('otf');
 }
 
+@font-face {
+  font-family: 'agrandir-grandheavy';
+  src: url('fonts/Agrandir-GrandHeavy.otf') format('otf');
+}
 * {
   box-sizing: border-box;
 }
@@ -23,8 +27,8 @@ body {
   transform-origin: top left;
 }
 .vh-center {
-  margin: auto auto;
-  width: 60%;
+  margin: auto 5%;
+  width: 40%;
 }
 
 .outer-wrapper {
@@ -67,6 +71,21 @@ body {
 .center {
   text-align: left;
   color: white;
-  font-size: 2rem;
-  font-family: 'Agrandir-Heavy';
+  font-size: .85rem;
+  font-family: 'founders-regular';
+  line-height: 1.3rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding-left: 60px;
+}
+
+.headline {
+  text-align: left;
+  color: white;
+  font-size: 3rem;
+  font-family: 'agrandir-grandheavy';
+  line-height: 1.3rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding-left: 60px;
 }
